@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660EAC6F1C857BBD00B7CB1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC6E1C857BBD00B7CB1F /* main.m */; };
+		660EAC721C857BBD00B7CB1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC711C857BBD00B7CB1F /* AppDelegate.m */; };
+		660EAC751C857BBD00B7CB1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC741C857BBD00B7CB1F /* ViewController.m */; };
+		660EAC781C857BBD00B7CB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EAC761C857BBD00B7CB1F /* Main.storyboard */; };
+		660EAC7A1C857BBD00B7CB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660EAC791C857BBD00B7CB1F /* Assets.xcassets */; };
+		660EAC7D1C857BBD00B7CB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */; };
+		660EAC881C857BBD00B7CB1F /* ElectricProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC871C857BBD00B7CB1F /* ElectricProTests.m */; };
+		660EAC931C857BBD00B7CB1F /* ElectricProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC921C857BBD00B7CB1F /* ElectricProUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660EAC841C857BBD00B7CB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660EAC621C857BBD00B7CB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660EAC691C857BBD00B7CB1F;
+			remoteInfo = ElectricPro;
+		};
+		660EAC8F1C857BBD00B7CB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660EAC621C857BBD00B7CB1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660EAC691C857BBD00B7CB1F;
+			remoteInfo = ElectricPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660EAC6A1C857BBD00B7CB1F /* ElectricPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660EAC6E1C857BBD00B7CB1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660EAC701C857BBD00B7CB1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660EAC711C857BBD00B7CB1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660EAC731C857BBD00B7CB1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		660EAC741C857BBD00B7CB1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		660EAC771C857BBD00B7CB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660EAC791C857BBD00B7CB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660EAC7C1C857BBD00B7CB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		660EAC7E1C857BBD00B7CB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660EAC831C857BBD00B7CB1F /* ElectricProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660EAC871C857BBD00B7CB1F /* ElectricProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricProTests.m; sourceTree = "<group>"; };
+		660EAC891C857BBD00B7CB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660EAC8E1C857BBD00B7CB1F /* ElectricProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660EAC921C857BBD00B7CB1F /* ElectricProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricProUITests.m; sourceTree = "<group>"; };
+		660EAC941C857BBD00B7CB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660EAC671C857BBD00B7CB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660EAC801C857BBD00B7CB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660EAC8B1C857BBD00B7CB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660EAC611C857BBD00B7CB1F = {
+			isa = PBXGroup;
+			children = (
+				660EAC6C1C857BBD00B7CB1F /* ElectricPro */,
+				660EAC861C857BBD00B7CB1F /* ElectricProTests */,
+				660EAC911C857BBD00B7CB1F /* ElectricProUITests */,
+				660EAC6B1C857BBD00B7CB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660EAC6B1C857BBD00B7CB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660EAC6A1C857BBD00B7CB1F /* ElectricPro.app */,
+				660EAC831C857BBD00B7CB1F /* ElectricProTests.xctest */,
+				660EAC8E1C857BBD00B7CB1F /* ElectricProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660EAC6C1C857BBD00B7CB1F /* ElectricPro */ = {
+			isa = PBXGroup;
+			children = (
+				660EAC701C857BBD00B7CB1F /* AppDelegate.h */,
+				660EAC711C857BBD00B7CB1F /* AppDelegate.m */,
+				660EAC731C857BBD00B7CB1F /* ViewController.h */,
+				660EAC741C857BBD00B7CB1F /* ViewController.m */,
+				660EAC761C857BBD00B7CB1F /* Main.storyboard */,
+				660EAC791C857BBD00B7CB1F /* Assets.xcassets */,
+				660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */,
+				660EAC7E1C857BBD00B7CB1F /* Info.plist */,
+				660EAC6D1C857BBD00B7CB1F /* Supporting Files */,
+			);
+			path = ElectricPro;
+			sourceTree = "<group>";
+		};
+		660EAC6D1C857BBD00B7CB1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660EAC6E1C857BBD00B7CB1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660EAC861C857BBD00B7CB1F /* ElectricProTests */ = {
+			isa = PBXGroup;
+			children = (
+				660EAC871C857BBD00B7CB1F /* ElectricProTests.m */,
+				660EAC891C857BBD00B7CB1F /* Info.plist */,
+			);
+			path = ElectricProTests;
+			sourceTree = "<group>";
+		};
+		660EAC911C857BBD00B7CB1F /* ElectricProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				660EAC921C857BBD00B7CB1F /* ElectricProUITests.m */,
+				660EAC941C857BBD00B7CB1F /* Info.plist */,
+			);
+			path = ElectricProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660EAC691C857BBD00B7CB1F /* ElectricPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660EAC971C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricPro" */;
+			buildPhases = (
+				660EAC661C857BBD00B7CB1F /* Sources */,
+				660EAC671C857BBD00B7CB1F /* Frameworks */,
+				660EAC681C857BBD00B7CB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectricPro;
+			productName = ElectricPro;
+			productReference = 660EAC6A1C857BBD00B7CB1F /* ElectricPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660EAC821C857BBD00B7CB1F /* ElectricProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660EAC9A1C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricProTests" */;
+			buildPhases = (
+				660EAC7F1C857BBD00B7CB1F /* Sources */,
+				660EAC801C857BBD00B7CB1F /* Frameworks */,
+				660EAC811C857BBD00B7CB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660EAC851C857BBD00B7CB1F /* PBXTargetDependency */,
+			);
+			name = ElectricProTests;
+			productName = ElectricProTests;
+			productReference = 660EAC831C857BBD00B7CB1F /* ElectricProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		660EAC8D1C857BBD00B7CB1F /* ElectricProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660EAC9D1C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricProUITests" */;
+			buildPhases = (
+				660EAC8A1C857BBD00B7CB1F /* Sources */,
+				660EAC8B1C857BBD00B7CB1F /* Frameworks */,
+				660EAC8C1C857BBD00B7CB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660EAC901C857BBD00B7CB1F /* PBXTargetDependency */,
+			);
+			name = ElectricProUITests;
+			productName = ElectricProUITests;
+			productReference = 660EAC8E1C857BBD00B7CB1F /* ElectricProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660EAC621C857BBD00B7CB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "com.TongChang.Co., Ltd.";
+				TargetAttributes = {
+					660EAC691C857BBD00B7CB1F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					660EAC821C857BBD00B7CB1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 660EAC691C857BBD00B7CB1F;
+					};
+					660EAC8D1C857BBD00B7CB1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 660EAC691C857BBD00B7CB1F;
+					};
+				};
+			};
+			buildConfigurationList = 660EAC651C857BBD00B7CB1F /* Build configuration list for PBXProject "ElectricPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660EAC611C857BBD00B7CB1F;
+			productRefGroup = 660EAC6B1C857BBD00B7CB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660EAC691C857BBD00B7CB1F /* ElectricPro */,
+				660EAC821C857BBD00B7CB1F /* ElectricProTests */,
+				660EAC8D1C857BBD00B7CB1F /* ElectricProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660EAC681C857BBD00B7CB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660EAC7D1C857BBD00B7CB1F /* LaunchScreen.storyboard in Resources */,
+				660EAC7A1C857BBD00B7CB1F /* Assets.xcassets in Resources */,
+				660EAC781C857BBD00B7CB1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660EAC811C857BBD00B7CB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660EAC8C1C857BBD00B7CB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660EAC661C857BBD00B7CB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660EAC751C857BBD00B7CB1F /* ViewController.m in Sources */,
+				660EAC721C857BBD00B7CB1F /* AppDelegate.m in Sources */,
+				660EAC6F1C857BBD00B7CB1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660EAC7F1C857BBD00B7CB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660EAC881C857BBD00B7CB1F /* ElectricProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660EAC8A1C857BBD00B7CB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660EAC931C857BBD00B7CB1F /* ElectricProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660EAC851C857BBD00B7CB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660EAC691C857BBD00B7CB1F /* ElectricPro */;
+			targetProxy = 660EAC841C857BBD00B7CB1F /* PBXContainerItemProxy */;
+		};
+		660EAC901C857BBD00B7CB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660EAC691C857BBD00B7CB1F /* ElectricPro */;
+			targetProxy = 660EAC8F1C857BBD00B7CB1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660EAC761C857BBD00B7CB1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660EAC771C857BBD00B7CB1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660EAC7C1C857BBD00B7CB1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660EAC951C857BBD00B7CB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660EAC961C857BBD00B7CB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660EAC981C857BBD00B7CB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElectricPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		660EAC991C857BBD00B7CB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElectricPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		660EAC9B1C857BBD00B7CB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectricProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricPro.app/ElectricPro";
+			};
+			name = Debug;
+		};
+		660EAC9C1C857BBD00B7CB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElectricProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectricPro.app/ElectricPro";
+			};
+			name = Release;
+		};
+		660EAC9E1C857BBD00B7CB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectricProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectricPro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		660EAC9F1C857BBD00B7CB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElectricProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ElectricPro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660EAC651C857BBD00B7CB1F /* Build configuration list for PBXProject "ElectricPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660EAC951C857BBD00B7CB1F /* Debug */,
+				660EAC961C857BBD00B7CB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660EAC971C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660EAC981C857BBD00B7CB1F /* Debug */,
+				660EAC991C857BBD00B7CB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		660EAC9A1C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660EAC9B1C857BBD00B7CB1F /* Debug */,
+				660EAC9C1C857BBD00B7CB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		660EAC9D1C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660EAC9E1C857BBD00B7CB1F /* Debug */,
+				660EAC9F1C857BBD00B7CB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660EAC621C857BBD00B7CB1F /* Project object */;
+}
