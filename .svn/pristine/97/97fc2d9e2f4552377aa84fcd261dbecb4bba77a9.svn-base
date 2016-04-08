@@ -1,0 +1,100 @@
+//
+//  ViewController.m
+//  ElectricPro
+//
+//  Created by LingKangli on 16/3/1.
+//  Copyright © 2016年 com.TongChang.Co., Ltd. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "SwiftElectricPro-swift.h"
+#import "TabbarViewController.h"
+
+@interface ViewController ()<UITextFieldDelegate>{
+
+    UITextField* userField;
+    UITextField* pwdField ;
+}
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+//    欢迎语
+    UILabel* titleLab = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, LLGScreenW, LLGScreenH*0.2)];
+    titleLab.text = @"欢迎使用电力设备系统客户端";
+    titleLab.textAlignment = UITextAlignmentCenter;
+    titleLab.textColor = [UIColor greenColor];
+    [self.view addSubview:titleLab];
+    
+//    用户名
+    UILabel* userName = [[UILabel alloc]initWithFrame:CGRectMake(20, CGRectGetMaxY(titleLab.frame), 150, 50)];
+    userName.text = @"用户名：";
+    [self.view addSubview:userName];
+    
+    userField = [[UITextField alloc]initWithFrame:CGRectMake(CGRectGetMaxX(userName.frame), userName.frame.origin.y, LLGScreenW*0.3, userName.frame.size.height)];
+    userField.placeholder = @"用户名";
+    userField.delegate = self;
+    [self.view addSubview:userField];
+    
+//    密码
+    UILabel* pwd = [[UILabel alloc]initWithFrame:CGRectMake(userName.frame.origin.x, CGRectGetMaxY(userName.frame), userName.frame.size.width, userName.frame.size.height)];
+    pwd.text =  @"密码：";
+    [self.view addSubview:pwd];
+    
+    pwdField = [[UITextField alloc]initWithFrame:CGRectMake(userField.frame.origin.x, CGRectGetMaxY(userField.frame), LLGScreenW*0.3, userName.frame.size.height)];
+    pwdField.placeholder = @"密码";
+    pwdField.delegate = self;
+    [self.view addSubview:pwdField];
+    
+//    登录按钮
+    UIButton* loginBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 50)];
+    loginBtn.center = CGPointMake(LLGScreenW/2, CGRectGetMaxY(pwdField.frame)+loginBtn.frame.size.height);
+    [loginBtn setBackgroundColor:[UIColor greenColor]];
+    [loginBtn setTitle:@"登录" forState:UIControlStateNormal];
+    [loginBtn addTarget:self action:@selector(loginBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:loginBtn];
+    
+    Cat* cat = [[Cat alloc]init];
+    [cat speak];
+}
+
+//点击return按钮方法
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+//登录方法
+-(void)loginBtn{
+    if ([self isLogin]) {
+        NSLog(@"登录成功");
+        TabbarViewController  *tabBar = [[TabbarViewController alloc]init];
+        [self presentModalViewController:tabBar animated:YES];
+    }else{
+        NSLog(@"登录失败");
+    }
+}
+
+//登录条件在此修改
+-(BOOL)isLogin{
+
+//    if ([userField.text isEqualToString:@"ling"] && [pwdField.text isEqualToString:@"1"]) {
+//        NSLog(@"满足条件");
+        return YES;
+//    }else{
+//        NSLog(@"不满足条件");
+//        return NO;
+//    }
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end

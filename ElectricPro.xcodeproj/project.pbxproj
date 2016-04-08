@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660EAC6F1C857BBD00B7CB1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC6E1C857BBD00B7CB1F /* main.m */; };
-		660EAC721C857BBD00B7CB1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC711C857BBD00B7CB1F /* AppDelegate.m */; };
-		660EAC751C857BBD00B7CB1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC741C857BBD00B7CB1F /* ViewController.m */; };
-		660EAC781C857BBD00B7CB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EAC761C857BBD00B7CB1F /* Main.storyboard */; };
 		660EAC7A1C857BBD00B7CB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660EAC791C857BBD00B7CB1F /* Assets.xcassets */; };
 		660EAC7D1C857BBD00B7CB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */; };
 		660EAC881C857BBD00B7CB1F /* ElectricProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC871C857BBD00B7CB1F /* ElectricProTests.m */; };
 		660EAC931C857BBD00B7CB1F /* ElectricProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EAC921C857BBD00B7CB1F /* ElectricProUITests.m */; };
+		660EACB21C85991900B7CB1F /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 660EACB11C85991900B7CB1F /* UserInfo.m */; };
+		660EACB51C85998B00B7CB1F /* ProObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EACB41C85998B00B7CB1F /* ProObj.swift */; };
+		66AFCD791C88144600145659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AFCD771C88144600145659 /* ViewController.m */; };
+		66AFCD7A1C88144600145659 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AFCD781C88144600145659 /* ViewController.xib */; };
+		66AFCD7E1C88189300145659 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AFCD7C1C88189300145659 /* AddressViewController.m */; };
+		66AFCD7F1C88189300145659 /* AddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AFCD7D1C88189300145659 /* AddressViewController.xib */; };
+		66AFCD831C8818B500145659 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AFCD811C8818B500145659 /* DetailViewController.m */; };
+		66AFCD841C8818B500145659 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AFCD821C8818B500145659 /* DetailViewController.xib */; };
+		66AFCD881C8818D600145659 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AFCD861C8818D600145659 /* ListViewController.m */; };
+		66AFCD891C8818D600145659 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66AFCD871C8818D600145659 /* ListViewController.xib */; };
+		66BDF7561C8677FA00FC2556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDF7531C8677FA00FC2556 /* AppDelegate.m */; };
+		66BDF75D1C8678E300FC2556 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66BDF7591C8678E300FC2556 /* Info.plist */; };
+		66BDF75E1C8678E300FC2556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDF75A1C8678E300FC2556 /* main.m */; };
+		66BDF76E1C86B1B200FC2556 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDF76D1C86B1B200FC2556 /* TabbarViewController.m */; };
+		66BDF77D1C86B5E700FC2556 /* BaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDF77B1C86B5E700FC2556 /* BaseUIViewController.m */; };
+		C1704302D4E5FB077AAFFFBB /* libPods-ElectricPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D5A98A0100EED1803126C7 /* libPods-ElectricPro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +48,45 @@
 
 /* Begin PBXFileReference section */
 		660EAC6A1C857BBD00B7CB1F /* ElectricPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		660EAC6E1C857BBD00B7CB1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		660EAC701C857BBD00B7CB1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		660EAC711C857BBD00B7CB1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		660EAC731C857BBD00B7CB1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		660EAC741C857BBD00B7CB1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		660EAC771C857BBD00B7CB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		660EAC791C857BBD00B7CB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		660EAC7C1C857BBD00B7CB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		660EAC7E1C857BBD00B7CB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660EAC831C857BBD00B7CB1F /* ElectricProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EAC871C857BBD00B7CB1F /* ElectricProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricProTests.m; sourceTree = "<group>"; };
 		660EAC891C857BBD00B7CB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660EAC8E1C857BBD00B7CB1F /* ElectricProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectricProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EAC921C857BBD00B7CB1F /* ElectricProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricProUITests.m; sourceTree = "<group>"; };
 		660EAC941C857BBD00B7CB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660EACB01C85991900B7CB1F /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInfo.h; path = childrenPage/mode/UserInfo.h; sourceTree = "<group>"; };
+		660EACB11C85991900B7CB1F /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserInfo.m; path = childrenPage/mode/UserInfo.m; sourceTree = "<group>"; };
+		660EACB41C85998B00B7CB1F /* ProObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProObj.swift; sourceTree = "<group>"; };
+		66AFCD761C88144600145659 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = IndexPart/ViewController.h; sourceTree = "<group>"; };
+		66AFCD771C88144600145659 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = IndexPart/ViewController.m; sourceTree = "<group>"; };
+		66AFCD781C88144600145659 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = IndexPart/ViewController.xib; sourceTree = "<group>"; };
+		66AFCD7B1C88189300145659 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressViewController.h; path = childrenPage/AddressView/AddressViewController.h; sourceTree = "<group>"; };
+		66AFCD7C1C88189300145659 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressViewController.m; path = childrenPage/AddressView/AddressViewController.m; sourceTree = "<group>"; };
+		66AFCD7D1C88189300145659 /* AddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressViewController.xib; path = childrenPage/AddressView/AddressViewController.xib; sourceTree = "<group>"; };
+		66AFCD801C8818B500145659 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = childrenPage/DetailView/DetailViewController.h; sourceTree = "<group>"; };
+		66AFCD811C8818B500145659 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = childrenPage/DetailView/DetailViewController.m; sourceTree = "<group>"; };
+		66AFCD821C8818B500145659 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = childrenPage/DetailView/DetailViewController.xib; sourceTree = "<group>"; };
+		66AFCD851C8818D600145659 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = childrenPage/ListView/ListViewController.h; sourceTree = "<group>"; };
+		66AFCD861C8818D600145659 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = childrenPage/ListView/ListViewController.m; sourceTree = "<group>"; };
+		66AFCD871C8818D600145659 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListViewController.xib; path = childrenPage/ListView/ListViewController.xib; sourceTree = "<group>"; };
+		66BDF7521C8677FA00FC2556 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = IndexPart/AppDelegate.h; sourceTree = "<group>"; };
+		66BDF7531C8677FA00FC2556 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = IndexPart/AppDelegate.m; sourceTree = "<group>"; };
+		66BDF7581C8678E300FC2556 /* ElectricPro-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ElectricPro-Bridging-Header.h"; path = "SupportingFiles/ElectricPro-Bridging-Header.h"; sourceTree = "<group>"; };
+		66BDF7591C8678E300FC2556 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		66BDF75A1C8678E300FC2556 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		66BDF75B1C8678E300FC2556 /* OCContainerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCContainerHeader.h; path = SupportingFiles/OCContainerHeader.h; sourceTree = "<group>"; };
+		66BDF75C1C8678E300FC2556 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = SupportingFiles/PrefixHeader.pch; sourceTree = "<group>"; };
+		66BDF76C1C86B1B200FC2556 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabbarViewController.h; path = IndexPart/TabbarViewController.h; sourceTree = "<group>"; };
+		66BDF76D1C86B1B200FC2556 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabbarViewController.m; path = IndexPart/TabbarViewController.m; sourceTree = "<group>"; };
+		66BDF7701C86B26400FC2556 /* Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Height.h; path = Command/Height.h; sourceTree = "<group>"; };
+		66BDF77A1C86B5E700FC2556 /* BaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseUIViewController.h; path = childrenPage/Base/BaseUIViewController.h; sourceTree = "<group>"; };
+		66BDF77B1C86B5E700FC2556 /* BaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseUIViewController.m; path = childrenPage/Base/BaseUIViewController.m; sourceTree = "<group>"; };
+		66BDF77E1C86B60900FC2556 /* Utill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utill.h; path = Command/Utill.h; sourceTree = "<group>"; };
+		7A7A7AFD0A6B2B694ACA78A7 /* Pods-ElectricPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectricPro/Pods-ElectricPro.release.xcconfig"; sourceTree = "<group>"; };
+		ACA5FCA8F50DDAEF3A5CCEEC /* Pods-ElectricPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectricPro/Pods-ElectricPro.debug.xcconfig"; sourceTree = "<group>"; };
+		B2D5A98A0100EED1803126C7 /* libPods-ElectricPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectricPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1704302D4E5FB077AAFFFBB /* libPods-ElectricPro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039D02B349D4EBA9412EFD56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA5FCA8F50DDAEF3A5CCEEC /* Pods-ElectricPro.debug.xcconfig */,
+				7A7A7AFD0A6B2B694ACA78A7 /* Pods-ElectricPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		660EAC611C857BBD00B7CB1F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				660EAC861C857BBD00B7CB1F /* ElectricProTests */,
 				660EAC911C857BBD00B7CB1F /* ElectricProUITests */,
 				660EAC6B1C857BBD00B7CB1F /* Products */,
+				039D02B349D4EBA9412EFD56 /* Pods */,
+				F4F7CAE17E8D235536EF638F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +149,12 @@
 		660EAC6C1C857BBD00B7CB1F /* ElectricPro */ = {
 			isa = PBXGroup;
 			children = (
-				660EAC701C857BBD00B7CB1F /* AppDelegate.h */,
-				660EAC711C857BBD00B7CB1F /* AppDelegate.m */,
-				660EAC731C857BBD00B7CB1F /* ViewController.h */,
-				660EAC741C857BBD00B7CB1F /* ViewController.m */,
-				660EAC761C857BBD00B7CB1F /* Main.storyboard */,
-				660EAC791C857BBD00B7CB1F /* Assets.xcassets */,
-				660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */,
-				660EAC7E1C857BBD00B7CB1F /* Info.plist */,
+				66BDF76F1C86B23D00FC2556 /* Command */,
+				66BDF75B1C8678E300FC2556 /* OCContainerHeader.h */,
+				660EACAB1C85967C00B7CB1F /* IndexPart */,
+				660EACA11C8590E000B7CB1F /* ChildrenPart */,
 				660EAC6D1C857BBD00B7CB1F /* Supporting Files */,
+				660EAC791C857BBD00B7CB1F /* Assets.xcassets */,
 			);
 			path = ElectricPro;
 			sourceTree = "<group>";
@@ -117,7 +162,11 @@
 		660EAC6D1C857BBD00B7CB1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				660EAC6E1C857BBD00B7CB1F /* main.m */,
+				660EACAC1C8596F100B7CB1F /* mode */,
+				66BDF7581C8678E300FC2556 /* ElectricPro-Bridging-Header.h */,
+				66BDF7591C8678E300FC2556 /* Info.plist */,
+				66BDF75A1C8678E300FC2556 /* main.m */,
+				66BDF75C1C8678E300FC2556 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +189,106 @@
 			path = ElectricProUITests;
 			sourceTree = "<group>";
 		};
+		660EACA11C8590E000B7CB1F /* ChildrenPart */ = {
+			isa = PBXGroup;
+			children = (
+				66BDF7771C86B5D100FC2556 /* BaseController */,
+				66AFCD2C1C880CBC00145659 /* ListView */,
+				66AFCD2B1C880CAE00145659 /* DetailView */,
+				66AFCD2A1C880C8E00145659 /* AddressView */,
+			);
+			name = ChildrenPart;
+			sourceTree = "<group>";
+		};
+		660EACAB1C85967C00B7CB1F /* IndexPart */ = {
+			isa = PBXGroup;
+			children = (
+				66BDF76B1C86B18E00FC2556 /* tabbar */,
+				66BDF7521C8677FA00FC2556 /* AppDelegate.h */,
+				66BDF7531C8677FA00FC2556 /* AppDelegate.m */,
+				660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */,
+				66AFCD761C88144600145659 /* ViewController.h */,
+				66AFCD771C88144600145659 /* ViewController.m */,
+				66AFCD781C88144600145659 /* ViewController.xib */,
+			);
+			name = IndexPart;
+			sourceTree = "<group>";
+		};
+		660EACAC1C8596F100B7CB1F /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				660EACB01C85991900B7CB1F /* UserInfo.h */,
+				660EACB11C85991900B7CB1F /* UserInfo.m */,
+				660EACB41C85998B00B7CB1F /* ProObj.swift */,
+			);
+			name = mode;
+			sourceTree = "<group>";
+		};
+		66AFCD2A1C880C8E00145659 /* AddressView */ = {
+			isa = PBXGroup;
+			children = (
+				66AFCD7B1C88189300145659 /* AddressViewController.h */,
+				66AFCD7C1C88189300145659 /* AddressViewController.m */,
+				66AFCD7D1C88189300145659 /* AddressViewController.xib */,
+			);
+			name = AddressView;
+			sourceTree = "<group>";
+		};
+		66AFCD2B1C880CAE00145659 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				66AFCD801C8818B500145659 /* DetailViewController.h */,
+				66AFCD811C8818B500145659 /* DetailViewController.m */,
+				66AFCD821C8818B500145659 /* DetailViewController.xib */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		66AFCD2C1C880CBC00145659 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				66AFCD851C8818D600145659 /* ListViewController.h */,
+				66AFCD861C8818D600145659 /* ListViewController.m */,
+				66AFCD871C8818D600145659 /* ListViewController.xib */,
+			);
+			name = ListView;
+			sourceTree = "<group>";
+		};
+		66BDF76B1C86B18E00FC2556 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				66BDF76C1C86B1B200FC2556 /* TabbarViewController.h */,
+				66BDF76D1C86B1B200FC2556 /* TabbarViewController.m */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
+		66BDF76F1C86B23D00FC2556 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				66BDF7701C86B26400FC2556 /* Height.h */,
+				66BDF77E1C86B60900FC2556 /* Utill.h */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
+		66BDF7771C86B5D100FC2556 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				66BDF77A1C86B5E700FC2556 /* BaseUIViewController.h */,
+				66BDF77B1C86B5E700FC2556 /* BaseUIViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		F4F7CAE17E8D235536EF638F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5A98A0100EED1803126C7 /* libPods-ElectricPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 660EAC971C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricPro" */;
 			buildPhases = (
+				73DBFB18060BFB02A6B78A49 /* Check Pods Manifest.lock */,
 				660EAC661C857BBD00B7CB1F /* Sources */,
 				660EAC671C857BBD00B7CB1F /* Frameworks */,
 				660EAC681C857BBD00B7CB1F /* Resources */,
+				A28A26251071A4D22A66E88A /* Embed Pods Frameworks */,
+				6520E095C2243A6A610ED4BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +395,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AFCD7F1C88189300145659 /* AddressViewController.xib in Resources */,
+				66AFCD841C8818B500145659 /* DetailViewController.xib in Resources */,
+				66AFCD891C8818D600145659 /* ListViewController.xib in Resources */,
+				66BDF75D1C8678E300FC2556 /* Info.plist in Resources */,
 				660EAC7D1C857BBD00B7CB1F /* LaunchScreen.storyboard in Resources */,
+				66AFCD7A1C88144600145659 /* ViewController.xib in Resources */,
 				660EAC7A1C857BBD00B7CB1F /* Assets.xcassets in Resources */,
-				660EAC781C857BBD00B7CB1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +421,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6520E095C2243A6A610ED4BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectricPro/Pods-ElectricPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DBFB18060BFB02A6B78A49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A28A26251071A4D22A66E88A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectricPro/Pods-ElectricPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		660EAC661C857BBD00B7CB1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660EAC751C857BBD00B7CB1F /* ViewController.m in Sources */,
-				660EAC721C857BBD00B7CB1F /* AppDelegate.m in Sources */,
-				660EAC6F1C857BBD00B7CB1F /* main.m in Sources */,
+				66AFCD881C8818D600145659 /* ListViewController.m in Sources */,
+				66BDF7561C8677FA00FC2556 /* AppDelegate.m in Sources */,
+				66BDF76E1C86B1B200FC2556 /* TabbarViewController.m in Sources */,
+				660EACB51C85998B00B7CB1F /* ProObj.swift in Sources */,
+				66AFCD791C88144600145659 /* ViewController.m in Sources */,
+				66AFCD831C8818B500145659 /* DetailViewController.m in Sources */,
+				66BDF75E1C8678E300FC2556 /* main.m in Sources */,
+				66BDF77D1C86B5E700FC2556 /* BaseUIViewController.m in Sources */,
+				66AFCD7E1C88189300145659 /* AddressViewController.m in Sources */,
+				660EACB21C85991900B7CB1F /* UserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +519,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		660EAC761C857BBD00B7CB1F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				660EAC771C857BBD00B7CB1F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		660EAC7B1C857BBD00B7CB1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,23 +614,34 @@
 		};
 		660EAC981C857BBD00B7CB1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA5FCA8F50DDAEF3A5CCEEC /* Pods-ElectricPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ElectricPro/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ElectricPro/SupportingFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = ElectricPro/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricPro;
+				PRODUCT_MODULE_NAME = SwiftElectricPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ElectricPro/SupportingFiles/OCContainerHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		660EAC991C857BBD00B7CB1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7A7AFD0A6B2B694ACA78A7 /* Pods-ElectricPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ElectricPro/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ElectricPro/SupportingFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = ElectricPro/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lingkangli.ElectricPro;
+				PRODUCT_MODULE_NAME = SwiftElectricPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ElectricPro/SupportingFiles/OCContainerHeader.h;
 			};
 			name = Release;
 		};
@@ -498,6 +712,7 @@
 				660EAC991C857BBD00B7CB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		660EAC9A1C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricProTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +721,7 @@
 				660EAC9C1C857BBD00B7CB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		660EAC9D1C857BBD00B7CB1F /* Build configuration list for PBXNativeTarget "ElectricProUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +730,7 @@
 				660EAC9F1C857BBD00B7CB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
